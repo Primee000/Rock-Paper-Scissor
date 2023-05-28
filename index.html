@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ROCK PAPER SCISSOR</title>
+    <style type="text/css" media="all">
+      div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60vh;
+      }
+      button {
+        border-radius: 20px;
+        background-color: brown;
+        border-color: red;
+        color: white;
+        font-size: 38px;
+        font-weight: 700;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        
+      }
+      button:active {
+        padding-left: 70px;
+        padding-right: 70px;
+        margin: 0;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <button
+      type="button"
+      onclick="
+ clickResult('Rock');
+ "
+    >
+      Rock
+    </button>
+    <button
+      type="button"
+      onclick="
+ clickResult('Paper');
+ "
+    >
+      Paper
+    </button>
+    <button
+      type="button"
+      onclick="
+ clickResult('Scissor');
+ "
+    >
+      Scissor
+    </button>
+</div>
+    <script src="Js-R-P-S.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
